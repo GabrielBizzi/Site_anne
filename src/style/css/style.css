@@ -33,7 +33,7 @@ html { background: #306967; background: linear-gradient(333deg, #306967 0%, #4b2
 .hover-link:hover:after { transform-origin: bottom left; transform: scaleX(1); }
 
 @media only screen and (max-width: 768px) { nav { text-align: center !important; } }
-nav { top: 0 !important; width: 100%; z-index: 4 !important; background-color: transparent; transition: .5s; }
+nav { top: 0 !important; width: 100%; z-index: 4 !important; background-color: transparent; transition: .5s; z-index: 100 !important; }
 nav .navbar-toggler { outline: 0 !important; border: none !important; }
 nav .navbar-toggler svg { display: inline-block; width: 1.5em; height: 1.5em; vertical-align: middle; content: ""; background: no-repeat center center; background-size: 100% 100%; fill: #ffffff; }
 nav a { color: #ffffff !important; }
@@ -126,6 +126,46 @@ footer .socials i { margin: 0px 15px; }
 .teams-content .our-team .social li a:hover { color: #6D6BFC; background-color: #ffffff; }
 
 /*==============================================
+ PRICING PAGE
+
+================================================*/
+.pricing-table-content .navbar { box-shadow: 0 2px 2px rgba(10, 10, 10, 0.06); -moz-box-shadow: 0 2px 2px rgba(10, 10, 10, 0.06); -webkit-box-shadow: 0 2px 2px rgba(10, 10, 10, 0.06); border: none; background: #fff; }
+.pricing-table-content .navbar ul > li > a { font-weight: 600; padding: 26px; color: #434a54; font-size: 12px; text-transform: uppercase; }
+.pricing-table-content .navbar .container .navbar-brand { margin-left: 0px; padding: 25px; }
+.pricing-table-content .main-title { text-align: center; }
+.pricing-table-content .pricing-tables { padding: 20px; max-width: 90%; margin: 0 auto; width: 100%; }
+.pricing-table-content .pricing-tables h1 { font-size: 48px; }
+.pricing-table-content .pricing-tables .plan.first { border-bottom-left-radius: 10px; border-top-left-radius: 10px; }
+.pricing-table-content .pricing-tables .plan.last { border-bottom-right-radius: 10px; border-top-right-radius: 10px; }
+.pricing-table-content .pricing-tables .plan.recommended { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+.pricing-table-content .pricing-tables .plan.recommended .head { margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.pricing-table-content .pricing-tables.attached .col-sm-4, .pricing-table-content .pricing-tables.attached .col-md-4, .pricing-table-content .pricing-tables.attached .col-sm-3, .pricing-table-content .pricing-tables.attached .col-md-3 { padding-left: 0; padding-right: 0; }
+.pricing-table-content .pricing-tables.attached .plan { border-radius: 0; }
+.pricing-table-content .pricing-tables.attached .plan .head { border-radius: 0; }
+.pricing-table-content .pricing-tables.attached .plan.recommended { border-radius: 10px; }
+.pricing-table-content .pricing-tables.attached .plan.recommended .head { border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.pricing-table-content .pricing-tables.attached .plan.last { border-bottom-right-radius: 10px; }
+.pricing-table-content .pricing-tables.attached .plan.last .head { border-top-right-radius: 10px; }
+.pricing-table-content .pricing-tables.attached .plan.first { border-bottom-left-radius: 10px; }
+.pricing-table-content .pricing-tables.attached .plan.first .head { border-top-left-radius: 10px; }
+.pricing-table-content .plan { box-shadow: 0 2px 2px rgba(10, 10, 10, 0.06); min-height: 100px; background: #e2e2e2; border-radius: 10px; margin: 20px 0; padding-bottom: 25px; text-align: center; }
+.pricing-table-content .plan .head { border-top-left-radius: 10px; border-top-right-radius: 10px; padding: 12px 16px; background: #936ee4; color: #fff; }
+.pricing-table-content .plan .head h1, .pricing-table-content .plan .head h2, .pricing-table-content .plan .head h3 { padding: 0; margin: 0; font-weight: 100; }
+.pricing-table-content .plan .price { border-top: 1px solid #eee; margin: 0 auto 30px auto; width: 80%; }
+.pricing-table-content .plan .price h3 { font-size: 82px; vertical-align: top; line-height: 1; color: #6D6BFC; }
+.pricing-table-content .plan .price h3 span { font-size: 38px; vertical-align: top; position: relative; margin: 6px 0 0 -7px; display: inline-block; }
+.pricing-table-content .plan .price h4 { color: #aaa; font-size: 14px; }
+.pricing-table-content .plan .btn { padding: 10px 30px; text-transform: uppercase; font-weight: 500; }
+.pricing-table-content .plan ul { list-style-type: none; padding: 20px; margin-top: 2px; }
+.pricing-table-content .plan ul li { line-height: 22px; margin-bottom: 15px; font-size: 14px; font-weight: 400; }
+.pricing-table-content .plan ul li a { text-decoration: underline; color: #e6e9ed; }
+.pricing-table-content .plan ul li:last-child { border-bottom: none; }
+.pricing-table-content .plan ul strong { font-weight: 700; }
+.pricing-table-content .plan.recommended { margin-top: 6px; box-shadow: 0 0 22px rgba(10, 10, 10, 0.42); position: relative; z-index: 99; border-radius: 10px; }
+.pricing-table-content .plan.recommended .head { border-top-left-radius: 10px; border-top-right-radius: 10px; background: #6D6BFC; }
+.pricing-table-content .plan.recommended .btn { margin-bottom: 10px; }
+
+/*==============================================
  CONTACT PAGE
 
 ================================================*/
@@ -147,6 +187,8 @@ footer .socials i { margin: 0px 15px; }
 .form-contact .socials-content-middle a { text-decoration: none; text-transform: none; color: #6D6BFC; position: relative; }
 .form-contact .socials-content-left p { text-align: left !important; }
 .form-contact .socials-content-left p i { font-size: 1.5rem; width: 50px; height: 30px; box-sizing: border-box; margin-right: auto !important; color: #6D6BFC; }
+
+.mercadopago-button { background: radial-gradient(#6D6BFC, #936ee4, 100%) !important; background-image: -moz-radial-gradient(45deg, #6D6BFC 50%, #936ee4 100%) !important; background-image: -webkit-radial-gradient(45deg, #6D6BFC 50%, #936ee4 100%) !important; background-image: linear-gradient(to right, #6D6BFC 50%, #936ee4 100%) !important; background-size: auto !important; background-repeat: no-repeat !important; color: #fdfdfd !important; margin-right: 5px; border-radius: 50px !important; text-transform: uppercase; font-size: 14px !important; font-weight: normal !important; width: auto !important; height: auto !important; padding: 4px 45px !important; margin-top: 5px !important; margin-bottom: 5px !important; }
 
 /*# sourceMappingURL=style.css.map */
 
