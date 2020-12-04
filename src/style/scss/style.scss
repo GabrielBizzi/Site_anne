@@ -157,6 +157,9 @@ nav {
   background-color: transparent;
   transition: .5s;
   z-index: 100 !important;
+  .navbar-nav {
+    align-items: center;
+  }
   .navbar-toggler {
     outline: 0 !important;
     border: none !important;
@@ -172,6 +175,10 @@ nav {
       fill: #ffffff;
     }
 
+  }
+
+  p {
+    color: #ffffff !important;
   }
 
   a {
@@ -192,6 +199,10 @@ nav {
   background-color: #ffffff !important;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
   transition: .5s;
+
+  p {
+    color: #262626 !important;
+  }
 
   a {
     color: #262626 !important;
@@ -376,11 +387,18 @@ section#hero {
 .nav-item {
   position: relative;
   display: block;
+  .logout-tag {
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .user-tag {
+    margin-bottom: 0;
+  }
 }
 
 .nav-link {
   font-weight: 400;
-
+  
   &.active {
     color: #fff !important;
     font-weight: 600 !important;

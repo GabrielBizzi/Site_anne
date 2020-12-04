@@ -144,6 +144,9 @@ nav {
   transition: 0.5s;
   z-index: 100 !important;
 }
+nav .navbar-nav {
+  align-items: center;
+}
 nav .navbar-toggler {
   outline: 0 !important;
   border: none !important;
@@ -157,6 +160,9 @@ nav .navbar-toggler svg {
   background: no-repeat center center;
   background-size: 100% 100%;
   fill: #ffffff;
+}
+nav p {
+  color: #ffffff !important;
 }
 nav a {
   color: #ffffff !important;
@@ -173,6 +179,9 @@ nav .logo {
   background-color: #ffffff !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   transition: 0.5s;
+}
+.navbar.scrolled p {
+  color: #262626 !important;
 }
 .navbar.scrolled a {
   color: #262626 !important;
@@ -339,6 +348,13 @@ section#hero {
 .nav-item {
   position: relative;
   display: block;
+}
+.nav-item .logout-tag {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.nav-item .user-tag {
+  margin-bottom: 0;
 }
 
 .nav-link {

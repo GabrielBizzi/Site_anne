@@ -34,13 +34,16 @@ html { background: #306967; background: linear-gradient(333deg, #306967 0%, #4b2
 
 @media only screen and (max-width: 768px) { nav { text-align: center !important; } }
 nav { top: 0 !important; width: 100%; z-index: 4 !important; background-color: transparent; transition: .5s; z-index: 100 !important; }
+nav .navbar-nav { align-items: center; }
 nav .navbar-toggler { outline: 0 !important; border: none !important; }
 nav .navbar-toggler svg { display: inline-block; width: 1.5em; height: 1.5em; vertical-align: middle; content: ""; background: no-repeat center center; background-size: 100% 100%; fill: #ffffff; }
+nav p { color: #ffffff !important; }
 nav a { color: #ffffff !important; }
 nav a span { color: #ffffff !important; }
 nav .logo { margin-bottom: 12px; margin-right: -5px; }
 
 .navbar.scrolled { background-color: #ffffff !important; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; transition: .5s; }
+.navbar.scrolled p { color: #262626 !important; }
 .navbar.scrolled a { color: #262626 !important; }
 .navbar.scrolled a span { color: #262626 !important; }
 .navbar.scrolled svg { display: inline-block; width: 1.5em; height: 1.5em; vertical-align: middle; content: ""; background: no-repeat center center; background-size: 100% 100%; fill: #262626 !important; }
@@ -79,6 +82,8 @@ html { background: #306967; background: linear-gradient(333deg, #306967 0%, #4b2
 section#hero { width: 100vw; }
 
 .nav-item { position: relative; display: block; }
+.nav-item .logout-tag { margin-bottom: 0; margin-left: 15px; }
+.nav-item .user-tag { margin-bottom: 0; }
 
 .nav-link { font-weight: 400; }
 .nav-link.active { color: #fff !important; font-weight: 600 !important; }
