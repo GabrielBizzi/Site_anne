@@ -94,10 +94,7 @@
             <div class="row align-items-center">
                 <div class="col-md-5 content-first">
                     <h1 class="sub-tittle text-left mb-4">Discover what <img src="src/images/png/anne-spectre.png" width="30" height="35" style="margin-bottom: 12px; margin-right: -2px;">nne has.</h1>
-                    <p class="lead text-left mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Sapiente autem assumenda quae consequatur pariatur voluptas.
-                        Modi, omnis inventore, recusandae, incidunt consequuntur excepturi natus odio illo
-                        cupiditate iure obcaecati perferendis pariatur?</p>
+                    <p class="lead text-left mb-4">Anne has a great ability to analyze vulnerabilities, map them and, in the same instance, present the user with statistics from the Web system.</p>
                     <a href="#" class="btn shadow downs-btn">Learn More</a>
                 </div>
                 <div class="col-md-7">
@@ -171,10 +168,8 @@
                 </div>
                 <div class="col-md-5 info-more-content">
                     <h1 class="sub-tittle text-right mb-4">Keep websites safe during development.</h1>
-                    <p class="lead text-justify mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Sapiente autem assumenda quae consequatur pariatur voluptas.
-                        Modi, omnis inventore, recusandae, incidunt consequuntur excepturi natus odio illo
-                        cupiditate iure obcaecati perferendis pariatur?</p>
+                    <p class="lead text-justify mb-4">
+                        Keep your web development system safe! Everything we want, we want the good and the best. A single scan and you will find errors / vulnerabilities! If there is.</p>
                 </div>
             </div>
         </div>
@@ -187,10 +182,8 @@
                 </div>
                 <div class="col-md-5 info-more-content order-1">
                     <h1 class="sub-tittle text-left mb-4">Get vulnerability reporting.</h1>
-                    <p class="lead text-justify mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Sapiente autem assumenda quae consequatur pariatur voluptas.
-                        Modi, omnis inventore, recusandae, incidunt consequuntur excepturi natus odio illo
-                        cupiditate iure obcaecati perferendis pariatur?</p>
+                    <p class="lead text-justify mb-4">
+                        Stay on top of the reports that Anne will make from your web system. It may be something not so critical, but if it is ... Good! Let me use Anne here to see if your web system is secure. Want to see it too? Download Anne and get inside!</p>
                 </div>
             </div>
         </div>
@@ -199,8 +192,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center my-auto">
-                    <h1 class="py-4 text-light">Lorem Ipsum</h1>
-                    <p class="lead py-3 text-light">Through artificial intelligence technologym we can have knowledge beyound superficiallity, knowledge that revolutionizes the world.</p>
+                    <h1 class="py-4 text-light">Did you find it cool?</h1>
+                    <p class="lead py-3 text-light">
+                        Want to see how it works or want to go straight to the download? Below is "one blue and one red pill", the choice is yours!</p>
                     <?php
                     session_start();
                     if (!isset($_SESSION['ID'])) {

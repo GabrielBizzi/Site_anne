@@ -65,7 +65,7 @@
                         <div class="row">
                             <div class="col-md-12 my-auto text-center">
                                 <h1 class="text-light">About Us</h1>
-                                <p class="lead text-light my-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum aliquam rerum eaque debitis suscipit inventore ullam natus tempore, eum quas! Eum consequatur explicabo ratione exercitationem suscipit, dolorem non beatae!</p>
+                                <p class="lead text-light my-5 text-center">Know a little about us and why the Anne project.</p>
                             </div>
 
                         </div>
@@ -79,10 +79,11 @@
                 <div class="row">
                     <div class="col-md-6 content-before-img">
                         <p class="lead text-justify">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente autem assumenda quae consequatur pariatur voluptas. Modi, omnis inventore, recusandae, incidunt consequuntur excepturi natus odio illo cupiditate iure obcaecati perferendis pariatur?
+                            We are part of a course conclusion work group and Anne is exactly the target of this, being her, our course conclusion work project. It was developed by 1 programmer, 2 designers, 2 writers and 1 leader.
                         </p>
                         <p class="lead text-justify">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente autem assumenda quae consequatur pariatur voluptas. Modi, omnis inventore, recusandae, incidunt consequuntur excepturi natus odio illo cupiditate iure obcaecati perferendis pariatur?
+                            Our ambitions? We can't say for sure, who knows where the path will lead us. But this project / work was the culmination of our evolution. We have overcome barriers seen only on the horizon.
+                            "... sometimes it's the people that nobody expects, who do the things that nobody can imagine." - Alan Turing - Father of computing
                         </p>
                     </div>
                     <div class="col-md-6 figure-mask">
@@ -93,13 +94,13 @@
         </div>
         <div class="teams-content">
             <h1 class="text-center pb-3">Our team</h1>
-            <p class="sub-text lead text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias expedita asperiores aliquid illo possimus, labore perferendis? Unde officia, dolorem amet quis at odit, mollitia pariatur, possimus illum esse ut recusandae.</p>
+            <p class="sub-text lead text-center">Anne project development team.</p>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="our-team">
                             <div class="picture">
-                                <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+                                <img class="img-fluid" src="src/images/jpg/alice_profile.jpeg">
                             </div>
                             <div class="team-content">
                                 <h3 class="name">Alice P. Trindade</h3>
@@ -107,16 +108,7 @@
                             </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-linkedin" aria-hidden="true"></a>
+                                    <a href="https://www.instagram.com/alice_trin/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
                                 </li>
                             </ul>
                         </div>
@@ -124,7 +116,7 @@
                     <div class="col-md-4">
                         <div class="our-team">
                             <div class="picture">
-                                <img class="img-fluid" src="https://picsum.photos/130/130?image=839">
+                                <img class="img-fluid" src="src/images/jpg/andrew_profile.jpeg">
                             </div>
                             <div class="team-content">
                                 <h3 class="name">Andrew I. R. Silva</h3>
@@ -132,16 +124,7 @@
                             </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-linkedin" aria-hidden="true"></a>
+                                    <a href="https://www.facebook.com/andrew.rodrigues.357/" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
                                 </li>
                             </ul>
                         </div>
@@ -149,7 +132,7 @@
                     <div class="col-md-4">
                         <div class="our-team">
                             <div class="picture">
-                                <img class="img-fluid" src="https://picsum.photos/130/130?image=856">
+                                <img class="img-fluid" src="src/images/jpg/breno_profile.jpg">
                             </div>
                             <div class="team-content">
                                 <h3 class="name">Breno A. B. Gianotti</h3>
@@ -157,16 +140,7 @@
                             </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-linkedin" aria-hidden="true"></a>
+                                    <a href="instagram.com/brenobrenni" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
                                 </li>
                             </ul>
                         </div>
@@ -174,7 +148,7 @@
                     <div class="col-md-4">
                         <div class="our-team">
                             <div class="picture">
-                                <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+                                <img class="img-fluid" src="src/images/jpg/bizzi_profile.jpg">
                             </div>
                             <div class="team-content">
                                 <h3 class="name">Gabriel A. Bizzi</h3>
@@ -182,16 +156,16 @@
                             </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+                                    <a href="https://web.facebook.com/gabriel.alves.bizzi" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+                                    <a href="https://www.behance.net/gabrielbizzi" target="_blank" class="fa fa-behance" aria-hidden="true"></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
+                                    <a href="http://gabriel-bizzi.000webhostapp.com/" target="_blank" class="fa fa-globe" aria-hidden="true"></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fa fa-linkedin" aria-hidden="true"></a>
+                                    <a href="https://www.instagram.com/gabriel.bizzi/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
                                 </li>
                             </ul>
                         </div>
@@ -199,7 +173,7 @@
                     <div class="col-md-4">
                         <div class="our-team">
                             <div class="picture">
-                                <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
+                                <img class="img-fluid" src="src/images/jpg/gui_profile.jpeg">
                             </div>
                             <div class="team-content">
                                 <h3 class="name">Guilherme O. Rodrigues</h3>
@@ -207,16 +181,10 @@
                             </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+                                    <a href="https://instagram.com/guill_olliver?igshid=ormaknz1nwjt" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-linkedin" aria-hidden="true"></a>
+                                    <a href="https://twitter.com/Guill_0liv3r?s=09" target="_blank" class="fa fa-twitter" aria-hidden="true"></a>
                                 </li>
                             </ul>
                         </div>
@@ -224,7 +192,7 @@
                     <div class="col-md-4">
                         <div class="our-team">
                             <div class="picture">
-                                <img class="img-fluid" src="https://picsum.photos/130/130?image=856">
+                                <img class="img-fluid" src="src/images/jpg/isabela_profile.jpeg">
                             </div>
                             <div class="team-content">
                                 <h3 class="name">Isabela M. S. Santos</h3>
@@ -232,16 +200,7 @@
                             </div>
                             <ul class="social">
                                 <li>
-                                    <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-linkedin" aria-hidden="true"></a>
+                                    <a href="instagram.com/snflowxr/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
                                 </li>
                             </ul>
                         </div>

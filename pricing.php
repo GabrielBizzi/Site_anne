@@ -65,7 +65,8 @@
                         <div class="row">
                             <div class="col-md-12 my-auto text-center">
                                 <h1 class="text-light">Prices</h1>
-                                <p class="lead text-light my-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum aliquam rerum eaque debitis suscipit inventore ullam natus tempore, eum quas! Eum consequatur explicabo ratione exercitationem suscipit, dolorem non beatae!</p>
+                                <p class="lead text-light my-5 text-center">
+                                  Want to do a few scans for a home office job? Or do you want unlimited scans for a large company? Choose one of the plans you like best, make the payment and you will receive the download to download and later install Anne!</p>
                             </div>
 
                         </div>

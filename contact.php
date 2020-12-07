@@ -65,7 +65,8 @@
                         <div class="row">
                             <div class="col-md-12 my-auto text-center">
                                 <h1 class="text-light">Contact</h1>
-                                <p class="lead text-light my-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum aliquam rerum eaque debitis suscipit inventore ullam natus tempore, eum quas! Eum consequatur explicabo ratione exercitationem suscipit, dolorem non beatae!</p>
+                                <p class="lead text-light my-5 text-center">
+                                    Want to take any questions? Chat about the project or plan something for the future with the schedule? Contact us!</p>
                             </div>
 
                         </div>
@@ -78,18 +79,18 @@
                                 <form method="POST" action="dist/email.php">
                                     <div class="form-row form-contact-content">
                                         <div class="col-md-6">
-                                            <input type="name" class="form-control" name="name" id="name" aria-describedby="nome" placeholder="Seu nome" required>
+                                            <input type="name" class="form-control" name="name" id="name" aria-describedby="nome" placeholder="Your Name" required>
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control" name="email" id="email" placeholder="Seu email" required>
+                                            <input type="text" class="form-control" name="email" id="email" placeholder="Your e-mail" required>
                                         </div>
                                         <div class="col-md-12 mt-3">
-                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto">
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
                                         </div>
                                         <div class="col-md-12 mt-3">
                                             <textarea class="form-control" name="message" id="message" rows="3"></textarea>
                                         </div>
-                                        <button type="submit" class="btn mt-3 shadow downs-btn">Enviar</button>
+                                        <button type="submit" class="btn mt-3 shadow downs-btn">Submit</button>
                                       </div>
                                 </form>
                             </div>
